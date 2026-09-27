@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página</title>
 </head>
-<body>
 
-</body>
-</html>
+<body>
 
 <head>
     <h1>Meu Primeiro Projeto</h1>
@@ -88,7 +86,41 @@
 
 <img src="https://images.pexels.com/photos/36571389/pexels-photo-36571389/free-photo-of-codigo-html-na-tela-do-computador-em-modo-escuro.jpeg?cs=tinysrgb&dpr=1&w=500" alt="Ilustração educativa sobre HTML">
 
+<section>
+            <h2>Apresentação do Projeto</h2>
+
+            <!--
+            preload="metadata" foi escolhido porque o vídeo pode ser relativamente
+            grande. Assim, o navegador carrega apenas informações básicas do vídeo,
+            evitando o download completo antes da interação do usuário.
+            -->
+
+            <video controls
+                   width="480"
+                   poster="imagens/poster.jpg"
+                   preload="metadata">
+
+                <source src="C:\Users\ismae\OneDrive\Documents\midia\apresentacao.webm" type="video/webm">
+                <source src="C:\Users\ismae\OneDrive\Documents\midia\apresentação.mp4" type="video/mp4">
+
+
+                <track
+                    src="legendas/apresentacao.vtt"
+                    kind="subtitles"
+                    srclang="pt-BR"
+                    label="Português"
+                    default>
+
+            </video>
+
+            
+
+        </section>
 <footer>
     Meu primeiro projeto em HTML <br>
         Jose Ismael Aluno do primeiro periodo do curso de Análise e Desenvolvimento de Sistemas. <br>
 </footer>
+
+</body>
+</html>
+
